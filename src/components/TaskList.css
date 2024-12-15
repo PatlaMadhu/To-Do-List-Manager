@@ -1,0 +1,32 @@
+/* Add styling for the buttons */
+.button-container {
+    display: flex;
+    gap: 10px; /* Adds space between the buttons */
+  }
+  
+  .edit-button {
+    background-color: #4CAF50; /* Green color for the Edit button */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .edit-button:hover {
+    background-color: #45a049; /* Darker green when hovering */
+  }
+  
+  .delete-button {
+    background-color: #f44336; /* Red color for the Delete button */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .delete-button:hover {
+    background-color: #e53935; /* Darker red when hovering */
+  }
+  
